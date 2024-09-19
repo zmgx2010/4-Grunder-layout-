@@ -1,0 +1,55 @@
+/* Global styling */
+body {
+    font-family: Verdana, sans-serif;
+    background-color: #e600c8;
+    /* Ljus bakgrundsfärg för body (ej vit) */
+    color: black;
+    /* Svart text för lättläsning */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+section {
+    display: flex;
+    /* Använd Flexbox för layouten med två spalter */
+    justify-content: space-between;
+    padding: 20px;
+}
+
+article {
+    background-color: #e6e6fa;
+    /* Ljus bakgrundsfärg för article */
+    padding: 20px;
+    width: 45%;
+}
+
+footer {
+    background-color: #dcdcdc;
+    /* Ljus bakgrundsfärg för footern */
+    text-align: center;
+    padding: 10px;
+}
+
+/* Länkar */
+a {
+    color: #333333;
+    /* Mörkare färg för länkar än bakgrundsfärgen */
+    text-decoration: none;
+    /* Ta bort understrykning */
+}
+
+a:hover {
+    text-decoration: underline;
+    /* Understrykning vid hover */
+}
+
+/* Bilder */
+img {
+    max-width: 100%;
+    height: auto;
+}
